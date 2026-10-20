@@ -13,6 +13,18 @@
 - 检测外部配置变化，避免覆盖其他程序刚修改的配置。
 - 提供重启 Codex 按钮。
 
+## 界面预览
+
+以下为真实程序界面，使用演示 Skill 和示例路径；实际数量及分类取决于本机安装情况。
+
+**主界面：** 顶部显示开启数量，来源目录默认折叠，可搜索、筛选或切换分组方式。
+
+![主界面：开启数量与默认折叠的来源分类](docs/images/overview.png)
+
+**分类批量开关：** 选中来源或用途分类后可批量切换。橙色标记和蓝色“保存开关”按钮表示有待保存修改。
+
+![展开分类并批量开启 Skill，显示待保存数量](docs/images/category-switches.png)
+
 ## 启动
 
 推荐下载 [Releases](https://github.com/cerealV/codex-skill-switcher/releases) 中的 `CodexSkillSwitcher-1.0.1-x64-setup.exe`。安装后从开始菜单打开 **Codex Skill Switcher**；安装程序自带 Python / Tk，不需要另外安装 Python。支持 Windows 10/11 x64，仍需先安装并运行过 Codex 桌面版。安装仅面向当前用户，无需管理员权限，卸载不会删除 Codex 配置和 Skill。
