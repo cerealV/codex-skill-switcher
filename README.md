@@ -15,6 +15,10 @@
 
 ## 启动
 
+推荐下载 [Releases](https://github.com/cerealV/codex-skill-switcher/releases) 中的 `CodexSkillSwitcher-1.0.1-x64-setup.exe`。安装后从开始菜单打开 **Codex Skill Switcher**；安装程序自带 Python / Tk，不需要另外安装 Python。支持 Windows 10/11 x64，仍需先安装并运行过 Codex 桌面版。安装仅面向当前用户，无需管理员权限，卸载不会删除 Codex 配置和 Skill。
+
+从源码启动：
+
 1. 在仓库页面点击 **Code → Download ZIP**，解压全部文件。
 2. 确保已安装并运行过 Windows Codex 桌面版。
 3. 双击 `skill-switcher/Start-Skill-Switcher.cmd`。
@@ -57,9 +61,21 @@
 python tests/test_skill_switcher.py
 ```
 
-9 项测试覆盖开关暂存、路径隔离、配置保护、分类批量范围及底部按钮布局。布局检查在 Tk 模拟的 100%、150%、200% 缩放下测试默认和最小窗口尺寸。写入测试使用临时项目和临时配置。
+10 项测试覆盖开关暂存、路径隔离、配置保护、分类批量范围、安装版默认项目目录及底部按钮布局。布局检查在 Tk 模拟的 100%、150%、200% 缩放下测试默认和最小窗口尺寸。写入测试使用临时项目和临时配置。
 
 重启脚本已测试应用定位与 DryRun；尚未自动验证真实退出并重开的完整流程。
+
+## 构建 Windows 安装包
+
+需要 Windows x64、Python 3.12（包含 Tk）、PyInstaller 6.22.3 和 [Inno Setup 6](https://jrsoftware.org/isinfo.php)。建议在独立虚拟环境中安装构建依赖：
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install PyInstaller==6.22.3
+.\packaging\build.ps1 -Python .venv\Scripts\python.exe -Iscc 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
+```
+
+产物位于 `dist/CodexSkillSwitcher-1.0.1-x64-setup.exe`，校验值位于 `dist/SHA256SUMS.txt`。安装包包含程序及 Python/Tk 运行时，不包含本机的 Codex 配置、Skill、账号或登录凭据。
 
 ## 参考
 

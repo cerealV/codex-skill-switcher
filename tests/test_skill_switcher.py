@@ -5,6 +5,7 @@ import tempfile
 import tkinter as tk
 import tomllib
 import unittest
+from unittest.mock import patch
 import sys
 
 MODULE = Path(__file__).resolve().parents[1] / 'skill-switcher/skill_switcher.py'
@@ -88,6 +89,17 @@ class SkillSwitchTests(unittest.TestCase):
         self.assertIsNone(app.save_changes(self.server, {}, self.original))
         self.assertEqual(app.config_bytes(self.home), self.original)
         self.assertEqual(set(self.home.glob('*.bak')), before)
+
+    def test_installed_app_does_not_use_internal_bundle_as_project(self):
+        root = tk.Tk()
+        root.withdraw()
+        try:
+            with patch.object(sys, 'frozen', True, create=True):
+                ui = app.Switcher(root, self.server)
+            self.assertEqual(ui.cwd, Path.home(), 'The installed app must discover user skills, not treat bundled runtime files as a project.')
+        finally:
+            root.update_idletasks()
+            root.destroy()
 
     def test_partial_failure_reports_exact_completed_count(self):
         real = self.server

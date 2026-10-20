@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import queue
 import subprocess
+import sys
 import threading
 import time
 import tkinter as tk
@@ -133,7 +134,7 @@ def save_changes(server, changes, expected):
 class Switcher:
     def __init__(self, root, server):
         self.root, self.server = root, server
-        self.cwd = Path(__file__).resolve().parent
+        self.cwd = Path.home() if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
         self.skills, self.pending = {}, {}
         self.group_members = {}
         self.expected = None
@@ -427,6 +428,9 @@ def main():
         ctypes.windll.shcore.SetProcessDpiAwareness(1)
     root = tk.Tk()
     root.withdraw()
+    if os.name == "nt" and getattr(sys, "frozen", False):
+        # External Codex/PowerShell processes must use Windows' own DLL paths.
+        ctypes.windll.kernel32.SetDllDirectoryW(None)
     server = None
     try:
         server = AppServer()

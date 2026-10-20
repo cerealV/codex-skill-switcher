@@ -10,3 +10,6 @@ config.toml
 auth.json
 .skill-lock.json
 work/
+build/
+dist/
+*.spec
