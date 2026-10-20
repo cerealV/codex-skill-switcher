@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.lnk
+*.bak
+*.log
+.env
+.env.*
+.venv/
+config.toml
+auth.json
+.skill-lock.json
+work/

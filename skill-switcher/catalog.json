@@ -1,0 +1,404 @@
+{
+  "categories": {
+    "小程序与云开发": [
+      "miniprogram-development",
+      "wechat-miniprogram-skill",
+      "vant-weapp",
+      "cloudbase"
+    ],
+    "界面设计与前端": [
+      "frontend-design",
+      "draw-ui",
+      "ui-ux-pro-max",
+      "awesome-design-md",
+      "brand-guidelines",
+      "developing-with-streamlit",
+      "ui-design",
+      "web-development"
+    ],
+    "文档表格与演示": [
+      "academic-pptx",
+      "hands-on-deck",
+      "ppt-master",
+      "pptx",
+      "docx",
+      "pdf",
+      "xlsx",
+      "documents:documents",
+      "pdf:pdf",
+      "presentations:Presentations",
+      "spreadsheets:Spreadsheets",
+      "spreadsheets:excel-live-control",
+      "template-creator:template-creator",
+      "xiaobei-skill-academic-paper-to-ppt",
+      "xiaobei-skill-image-to-vba",
+      "xiaobei-skill-rebuild-image-in-powerpoint",
+      "flyingmouse-format",
+      "liteparse",
+      "markitdown",
+      "latex-posters",
+      "pptx-posters",
+      "scientific-slides"
+    ],
+    "学术写作与文献检索": [
+      "academic-paper",
+      "academic-paper-reviewer",
+      "academic-pipeline",
+      "bgpt-paper-search",
+      "citation-management",
+      "literature-review",
+      "paper-lookup",
+      "paperclip",
+      "paperzilla",
+      "peer-review",
+      "pyzotero",
+      "research-grants",
+      "research-lookup",
+      "scholar-evaluation",
+      "scientific-writing",
+      "venue-templates",
+      "open-notebook",
+      "hypothesis-generation",
+      "scientific-brainstorming",
+      "scientific-critical-thinking",
+      "experimental-design"
+    ],
+    "生物医学与基因分析": [
+      "adaptyv",
+      "anndata",
+      "arboreto",
+      "benchling-integration",
+      "bids",
+      "biopython",
+      "bioservices",
+      "bulk-rnaseq",
+      "cellxgene-census",
+      "clinical-decision-support",
+      "clinical-reports",
+      "cobrapy",
+      "deepspot-m",
+      "deeptools",
+      "depmap",
+      "dnanexus-integration",
+      "esm",
+      "etetoolkit",
+      "flowio",
+      "geniml",
+      "genomic-coordinates",
+      "genomic-intelligence",
+      "gget",
+      "ginkgo-cloud-lab",
+      "glycoengineering",
+      "gtars",
+      "histolab",
+      "imaging-data-commons",
+      "iso-standards-readiness",
+      "labarchive-integration",
+      "lamindb",
+      "latchbio-integration",
+      "ncats-arax",
+      "neurokit2",
+      "neuropixels-analysis",
+      "nextflow",
+      "omero-integration",
+      "onekgpd",
+      "ontology-term-resolution",
+      "opentrons-integration",
+      "pacsomatic",
+      "pathml",
+      "pathogen-variant-surveillance",
+      "pathway-enrichment",
+      "phylogenetics",
+      "polars-bio",
+      "primekg",
+      "protocolsio-integration",
+      "pydeseq2",
+      "pydicom",
+      "pyhealth",
+      "pylabrobot",
+      "pyopenms",
+      "pysam",
+      "relsa-severity-assessment",
+      "scanpy",
+      "scikit-bio",
+      "scikit-survival",
+      "scvelo",
+      "scvi-tools",
+      "tiledbvcf",
+      "treatment-plans",
+      "waypoint-bio"
+    ],
+    "化学材料与物理模拟": [
+      "analytical-method-validation",
+      "astropy",
+      "cirq",
+      "datamol",
+      "deepchem",
+      "diffdock",
+      "fluidsim",
+      "geomaster",
+      "geopandas",
+      "lab-hardware-cad",
+      "matchms",
+      "medchem",
+      "molecular-dynamics",
+      "molfeat",
+      "openpiv",
+      "pennylane",
+      "pkpd-modeling",
+      "pymatgen",
+      "pytdc",
+      "qiskit",
+      "qutip",
+      "rdkit",
+      "rowan",
+      "simpy",
+      "tamarind",
+      "torchdrug",
+      "uncertainty-and-units"
+    ],
+    "数据统计与机器学习": [
+      "aeon",
+      "dask",
+      "datalad",
+      "exploratory-data-analysis",
+      "hugging-science",
+      "hypogenic",
+      "matlab",
+      "networkx",
+      "optimize-for-gpu",
+      "polars",
+      "pufferlib",
+      "pymc",
+      "pymoo",
+      "pytorch-lightning",
+      "scikit-learn",
+      "shap",
+      "stable-baselines3",
+      "statistical-analysis",
+      "statistical-power",
+      "statsmodels",
+      "sympy",
+      "timesfm-forecasting",
+      "torch-geometric",
+      "transformers",
+      "umap-learn",
+      "vaex",
+      "zarr-python"
+    ],
+    "图像视频与可视化": [
+      "bg-removal",
+      "bria-ai",
+      "vgl",
+      "canvas-design",
+      "generate-image",
+      "imagegen",
+      "hatch-pet",
+      "infographics",
+      "scientific-schematics",
+      "scientific-visualization",
+      "matplotlib",
+      "seaborn",
+      "architecture-diagram",
+      "markdown-mermaid-writing",
+      "video-downloader",
+      "video-remove-background",
+      "website-to-video",
+      "visualize:visualize"
+    ],
+    "安全研究与 CTF": [
+      "ctf-ai-ml",
+      "ctf-crypto",
+      "ctf-forensics",
+      "ctf-malware",
+      "ctf-misc",
+      "ctf-osint",
+      "ctf-pwn",
+      "ctf-reverse",
+      "ctf-web",
+      "ctf-writeup",
+      "solve-challenge"
+    ],
+    "开发工程与测试": [
+      "arbor",
+      "agent-deep-links",
+      "caveman-commit",
+      "modal",
+      "pi-agent",
+      "ponytail",
+      "review-agent",
+      "webapp-testing"
+    ],
+    "产品规划与工作流程": [
+      "account-executive",
+      "boss",
+      "brainstorming",
+      "cavecrew",
+      "caveman",
+      "consciousness-council",
+      "dhdna-profiler",
+      "grill",
+      "market-research-reports",
+      "stop-that-shit",
+      "using-superpowers",
+      "what-if-oracle",
+      "writing-guidelines",
+      "writing-plans"
+    ],
+    "浏览器操作与外部查询": [
+      "agent-reach",
+      "browser-act",
+      "computer-use:computer-use",
+      "database-lookup",
+      "exa-search",
+      "parallel-web",
+      "usfiscaldata"
+    ],
+    "系统与技能管理": [
+      "autoskill",
+      "browser-act-skill-forge",
+      "get-available-resources",
+      "openai-docs",
+      "skill-creator",
+      "skill-installer"
+    ]
+  },
+  "packages": {
+    "academic-paper": {
+      "repo": "Imbad0202/academic-research-skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "academic-paper-reviewer": {
+      "repo": "Imbad0202/academic-research-skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "academic-pipeline": {
+      "repo": "Imbad0202/academic-research-skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "account-executive": {
+      "repo": "borghei/claude-skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "agent-deep-links": {
+      "repo": "alxDisplayr/agent-deep-links-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "agent-reach": {
+      "repo": "Panniantong/Agent-Reach",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "architecture-diagram": {
+      "repo": "Cocoon-AI/architecture-diagram-generator",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "boss": {
+      "repo": "echovic/boss-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "brainstorming": {
+      "repo": "obra/superpowers",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "using-superpowers": {
+      "repo": "obra/superpowers",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "writing-plans": {
+      "repo": "obra/superpowers",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "brand-guidelines": {
+      "repo": "anthropics/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "canvas-design": {
+      "repo": "anthropics/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "webapp-testing": {
+      "repo": "anthropics/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "frontend-design": {
+      "repo": "anthropics/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "bg-removal": {
+      "repo": "Bria-AI/bria-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "bria-ai": {
+      "repo": "Bria-AI/bria-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "vgl": {
+      "repo": "Bria-AI/bria-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "video-remove-background": {
+      "repo": "Bria-AI/bria-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "browser-act": {
+      "repo": "browser-act/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "browser-act-skill-forge": {
+      "repo": "browser-act/skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "cavecrew": {
+      "repo": "juliusbrussee/caveman",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "caveman": {
+      "repo": "juliusbrussee/caveman",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "caveman-commit": {
+      "repo": "juliusbrussee/caveman",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "video-downloader": {
+      "repo": "nexu-io/open-design",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "website-to-video": {
+      "repo": "heygen-com/hyperframes",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "writing-guidelines": {
+      "repo": "vercel-labs/agent-skills",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "ui-ux-pro-max": {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "stop-that-shit": {
+      "repo": "lennney/stop-that-shit",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "cloudbase": {
+      "repo": "TencentCloudBase/cloudbase-plugin",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "draw-ui": {
+      "repo": "oil-oil/draw-ui",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "grill": {
+      "repo": "KAIXUAN-zhang-bot/grillme-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "ppt-master": {
+      "repo": "hugohe3/ppt-master",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    },
+    "wechat-miniprogram-skill": {
+      "repo": "Gourdbaby/wechat-miniprogram-skill",
+      "evidence": "预置公开仓库映射；不是本机下载来源证明，实际来源以本机安装记录为准。"
+    }
+  }
+}
